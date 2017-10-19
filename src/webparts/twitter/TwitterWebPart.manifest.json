@@ -18,7 +18,8 @@
     "group": { "default": "Other" },
     "title": { "default": "Twitter" },
     "description": { "default": "Twitter Feed" },
-    "officeFabricIconFontName": "Page",
+    // "officeFabricIconFontName": "Page",
+    "iconImageUrl" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAIAAAAnX375AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAZdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAuMTJDBGvsAAACjUlEQVRYR+2WO2sqQRSAo+IjKkKEYEghqIiImEJS+GjsUukv8B8YgoiNhWChaGFha4pEUEhjJwhCQCwECzsL00RUAlFSRERRfObAHkWzs+7m3mvggl8h7u7M+dYzc854svp1jsoDcVQeiP9TuVwu5/M5fOI1G3+lXCwWlUolEAh4PB6/318ulzfiyWQC70F9/wajslAotNttvCAxGo3u7u5EItHJGoFA4PV6S6VSNBq9vb0FKw7dhayczWbX19c2m+39/R1v0UgkEuBA2xo+ny+RSPR6fb1e7/f7OHQXshJGazQaCGE2m2u1Gt7dYjweq1QqSvMNsFosFpfL1Ww2cfQuZCXkxGQyUSFkMlk4HO50OtsbBJaQekqHx+MZjUbii1IwrmUoFILJmyjn5+ewPNVqFVI9HA5hpalHdCDbj4+PGIUEo7Lb7UJWMcwaoVAICXc4HFarFW/RgDG5XA6jkCArB4MB7LpIJCIWizESZ05PT5+fnzEQCbISSsput0OKNrnlztnZ2evrKwYiwZjYfD5PrwEuXF1dMTUBCkbldDoNBoN/YE0mkxiCAUYlAKWSyWQMBgP39F5eXkI54XwG9imhGKABqdVq7koopP1ZBfYpgVQqxX3T6nS6j48PnMkMixLOioeHB8gtq1ihUEB/wGl7YVEC0Od6vR5sYKVSieFpyOXybDbL8chkV769vcGhodVqMTwN6IVPT0+sS7iBrGy1Wvf391AkTqcTugnT9oFHNzc3jUYDp3GDrITz8uXlxefzXVxcSKXS7eqkTkRIstvthi4PpxjO4QxLYj8/P+GUT6fT8XgcfnQsFoM9XCwWIds44uewr+UG7n+o9vMD5b/iqDwQR+WB+HXlavUF0am4a3E6KrcAAAAASUVORK5CYII=",
     "properties": {
       "screenname": "TrueNorthIT",
       "height" : "600"
