@@ -1,15 +1,15 @@
-import { Version } from '@microsoft/sp-core-library';
+import { Version } from "@microsoft/sp-core-library";
 import {
   BaseClientSideWebPart,
   IPropertyPaneConfiguration,
   PropertyPaneTextField,
   PropertyPaneLabel
-} from '@microsoft/sp-webpart-base';
-import { escape } from '@microsoft/sp-lodash-subset';
+} from "@microsoft/sp-webpart-base";
+import { escape } from "@microsoft/sp-lodash-subset";
 
-import styles from './TwitterWebPart.module.scss';
-import * as strings from 'TwitterWebPartStrings';
-import { SPComponentLoader } from '@microsoft/sp-loader';
+import styles from "./TwitterWebPart.module.scss";
+import * as strings from "TwitterWebPartStrings";
+import { SPComponentLoader } from "@microsoft/sp-loader";
 import "widgets";
 
 export interface ITwitterWebPartProps {
@@ -19,7 +19,7 @@ export interface ITwitterWebPartProps {
 }
 
 export default class TwitterWebPartWebPart extends BaseClientSideWebPart<ITwitterWebPartProps> {
-  widget:any;
+  private widget:any;
   public constructor() {
     super();
     this.widget = require("widgets");
@@ -40,7 +40,7 @@ export default class TwitterWebPartWebPart extends BaseClientSideWebPart<ITwitte
   }
 
   protected get dataVersion(): Version {
-    return Version.parse('1.0');
+    return Version.parse("1.0");
   }
   protected get disableReactivePropertyChanges(): boolean {
     return true;
@@ -57,14 +57,14 @@ export default class TwitterWebPartWebPart extends BaseClientSideWebPart<ITwitte
             {
               groupName: strings.BasicGroupName,
               groupFields: [
-                PropertyPaneTextField('screenname', {
-                  label: 'Screenname'
+                PropertyPaneTextField("screenname", {
+                  label: "Screenname"
                 }),
-                PropertyPaneTextField('tweetlimit', {
-                  label: 'Tweet limit'
+                PropertyPaneTextField("tweetlimit", {
+                  label: "Tweet limit"
                 }),
-                PropertyPaneTextField('height', {
-                  label: 'Height'
+                PropertyPaneTextField("height", {
+                  label: "Height"
                 }),
                 PropertyPaneLabel("height", { text: "Height is ignored if tweet limit is set"} ),
               ]
