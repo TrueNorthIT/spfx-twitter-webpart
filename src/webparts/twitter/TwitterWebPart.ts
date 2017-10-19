@@ -17,21 +17,19 @@ export interface ITwitterWebPartProps {
 export default class TwitterWebPartWebPart extends BaseClientSideWebPart<ITwitterWebPartProps> {
   public constructor() {
     super();
-    SPComponentLoader.loadScript("/scripts/widgets.js");
+    let widget = require("widgets");
+    setTimeout( () => widget.widgets.load(), 0);
   }
 
   public render(): void {
     this.domElement.innerHTML = `
       <div class="${styles.twitter}">
         <div class="${styles.container}">
-          <div class="ms-Grid-row ms-bgColor-themeDark ms-fontColor-white ${styles.row}">
-            <div class="ms-Grid-col ms-lg10 ms-xl8 ms-xlPush2 ms-lgPush1">
+        hello
             <a class="twitter-timeline"
             href="https://twitter.com/${escape(this.properties.screenname)}">
             Tweets by @${escape(this.properties.screenname)}
             </a>
-            </div>
-          </div>
         </div>
       </div>`;
   }

@@ -13,5 +13,11 @@
   },
   "localizedResources": {
     "TwitterWebPartStrings": "lib/webparts/twitter/loc/{locale}.js"
+  },
+  "externals": {    
+    "widgets": {
+        "path": "scripts/widgets.js",
+        "globalName": "twttr"
+    }  
   }
 }
