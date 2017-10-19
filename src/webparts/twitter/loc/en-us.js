@@ -1,7 +1,7 @@
 define([], function() {
   return {
-    "PropertyPaneDescription": "Description",
-    "BasicGroupName": "Group Name",
+    "PropertyPaneDescription": "Twitter WebPart",
+    "BasicGroupName": "Options",
     "DescriptionFieldLabel": "Description Field"
   }
 });

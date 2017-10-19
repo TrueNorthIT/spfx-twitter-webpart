@@ -20,7 +20,8 @@
     "description": { "default": "Twitter Feed" },
     "officeFabricIconFontName": "Page",
     "properties": {
-      "screenname": "TrueNorthIT"
+      "screenname": "TrueNorthIT",
+      "height" : "600"
     }
   }]
 }
