@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "twitter-webpart-client-side-solution",
+    "id": "83ca9ba8-adde-4785-ba2d-0ac9cd05dcb9",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/twitter-webpart.sppkg"
+  }
+}
