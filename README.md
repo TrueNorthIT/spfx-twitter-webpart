@@ -19,8 +19,20 @@ This package produces the following:
 
 ### Build options
 
-gulp clean - TODO
-gulp test - TODO
-gulp serve - TODO
-gulp bundle - TODO
-gulp package-solution - TODO
+gulp clean 
+gulp test 
+gulp serve
+gulp bundle 
+gulp package-solution 
+
+## Ship to azure
+
+see https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/deploy-web-part-to-cdn 
+
+### only if manifest has changed and drop into sharepoint
+gulp package-solution --ship 
+
+### Build client SPA
+gulp --ship
+gulp deploy-azure-storage
+copy .\sharepoint\solution to via the app catalog site

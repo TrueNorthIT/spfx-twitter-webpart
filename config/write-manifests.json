@@ -1,6 +1,6 @@
 {
   "$schema": "https://dev.office.com/json-schemas/spfx-build/write-manifests.schema.json",
- // "cdnBasePath": "https://tncdnfortesting.azureedge.net/twitter-webpart"
- "cdnBasePath": "https://tncdnfortesting.blob.core.windows.net/twitter-webpart/"
+  "cdnBasePath": "https://tncdnfortesting.azureedge.net/twitter-webpart"
+ //"cdnBasePath": "https://tncdnfortesting.blob.core.windows.net/twitter-webpart/"
  
 }
